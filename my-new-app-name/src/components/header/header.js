@@ -1,5 +1,5 @@
 import logo from '../images/ColorWheel.png';
-import './header.scss'
+import './header.css'
 
 export const Header = () => {
     return(

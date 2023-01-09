@@ -1,5 +1,5 @@
 import fnicon from '../images/UN-Logo-Large.png'
-import './form.scss';
+import './form.css';
 
 export const Form = () => {
     return(

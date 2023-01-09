@@ -1,4 +1,4 @@
-import './footer.scss'
+import './footer.css'
 import fnlogo from '../images/Partner-UNDP-Full.png'
 
 export const Footer = () => {

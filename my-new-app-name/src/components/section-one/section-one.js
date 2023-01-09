@@ -1,4 +1,4 @@
-import './section-one.scss';
+import './section-one.css';
 
 export const SectionOne = () => {
     return(

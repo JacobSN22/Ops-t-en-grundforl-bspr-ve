@@ -1,4 +1,4 @@
-import './section-three.scss'
+import './section-three.css'
 import sustainability from '../images/Image-Sustainability.jpg'
 import leavenoone from '../images/Image-Leave-No-One.jpg'
 import Hunger from '../images/Image-Hunger.jpg'

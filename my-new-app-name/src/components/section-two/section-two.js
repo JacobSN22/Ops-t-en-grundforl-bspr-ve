@@ -1,4 +1,4 @@
-import './section-two.scss';
+import './section-two.css';
 import goalone from '../images/Goals/Goal-No-Poverty.png'
 import goaltwo from '../images/Goals/Goal-No-Hunger.png'
 import goalthree from '../images/Goals/Goal-Good-Health.png'
