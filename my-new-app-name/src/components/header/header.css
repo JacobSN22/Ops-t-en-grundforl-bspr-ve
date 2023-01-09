@@ -1,0 +1,30 @@
+header {
+    background-color: gray;
+}
+
+h1 {
+    font-size: 7vw;
+    display: inline;
+}
+
+h2 {
+    font-size: 6vw;
+    display: inline;
+
+}
+
+img {
+    float: left;
+    width: 20vw;
+}
+
+ul {
+    margin: 3em 0 0 0;
+    padding-bottom: 1em;
+    text-align: right;
+}
+
+li {
+    display: inline;
+    margin: 0 1em 0 0;
+}
