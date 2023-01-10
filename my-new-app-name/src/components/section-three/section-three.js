@@ -30,7 +30,7 @@ export const SectionThree = () => {
                     <p>I 2030-dagsordenen er inkluderet princippet om ”leave no one behind”. Princippet tilsiger, at alle lande skal opnå alle verdensmål, uden at nogen lades i stikken.<br></br><br></br>
                         Arbejdet med verdensmålene skal begynde med, at de
                         fattigste og mest marginaliserede adresseres først.<br></br><br></br>
-                        Dette er et vigtigt princip, hvortil også efterlevelsen af og respekten for menneskerettigheder er altafgørende.
+                        Dette er et vigtigt princip, hvortil også efterlevelsen af og respekten for menneskerettigheder er altafgørende.<br></br><br></br>
                         Med andre ord: “Leave No-One behind”.</p>
                 </div>
                 <div>

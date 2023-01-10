@@ -1,36 +1,128 @@
-.sectionThree a {
-    color: #333333;
-    text-decoration: underline;
-    float: right;
-    margin-top: 3em;
-    font-size: 1.8em
+@media screen and (min-width:1200px) {
+
+    .sectionThree a {
+        color: #333333;
+        text-decoration: underline;
+        float: right;
+        margin-top: 3em;
+        font-size: 1.8em
+    }
+    
+    .sectionThree h3 {
+        display: inline;
+    }
+    
+    .sectionThree h5 {
+        margin-top: 1em;
+    }
+    
+    .artOne {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1em;
+        margin-bottom: 3em;
+    }
+    
+    .artOne img {
+        width: 100%;
+        float: none;
+        margin: 5em 0 0 0;
+    }
+    
+    .artOne h4 {
+        margin: 0;
+    }
+    
+    .artOne p {
+        font-size: 2vw;
+    }
 }
 
-.sectionThree h3 {
-    display: inline;
+
+/* ---------------------------------------------------------------- */
+@media screen and (max-width:1200px) {
+
+    .sectionThree a {
+        color: #333333;
+        text-decoration: underline;
+        float: right;
+        margin-top: 1em;
+        font-size: 1.8em
+    }
+    
+    .sectionThree h3 {
+        display: inline;
+    }
+    
+    .sectionThree h5 {
+        margin-top: 1em;
+        font-size: 2.5vw;
+    }
+    
+    .artOne {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 1em;
+        margin-bottom: 3em;
+    }
+    
+    .artOne img {
+        width: 100%;
+        float: none;
+    }
+    
+    .artOne h4 {
+        margin: 0;
+        font-size: 4vw;
+    }
+    
+    .artOne p {
+        font-size: 3vw;
+    }
 }
 
-.sectionThree h5 {
-    margin-top: 1em;
-}
 
-.artOne {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 1em;
-    margin-bottom: 3em;
-}
+/* ---------------------------------------------------------------- */
 
-.artOne img {
-    width: 100%;
-    float: none;
-    margin: 5em 0 0 0;
-}
+@media screen and (max-width:800px) {
 
-.artOne h4 {
-    margin: 0;
-}
-
-.artOne p {
-    font-size: 2vw;
+    .sectionThree a {
+        color: #333333;
+        text-decoration: underline;
+        float: right;
+        margin-top: 0.5em;
+        font-size: 1.8em
+    }
+    
+    .sectionThree h3 {
+        display: inline;
+        font-size: 5.5vw;
+    }
+    
+    .sectionThree h5 {
+        margin-top: 1em;
+        font-size: 4vw;
+    }
+    
+    .artOne {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 1em;
+        margin-bottom: 3em;
+    }
+    
+    .artOne img {
+        width: 100%;
+        float: none;
+        margin: 0;
+    }
+    
+    .artOne h4 {
+        margin: 0;
+        font-size: 5vw;
+    }
+    
+    .artOne p {
+        font-size: 3.5vw;
+    }
 }

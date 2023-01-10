@@ -14,7 +14,7 @@ export const Footer = () => {
                 <a href="">https://ve.dk/klimaberegner/</a>
             </div>
 
-            <div>
+            <div className="ressourcer">
                 <h3>Ressourcer:</h3>
                 <a href="">Bliver Verden Bedre</a>
                 <a href="">Spotlight Rapport</a>
