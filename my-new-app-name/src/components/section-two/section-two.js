@@ -20,15 +20,16 @@ import goal from '../images/Goals/Global-Goals.png'
 
 export const SectionTwo = () => {
     return(
-        <section>
+    <main>
+        <section className="sectionTwo">
             <div>
-                <h3>DE 17 VERDENSMÅL</h3>
+                <h3>DELMÅLENE</h3>
                 <a href="">Tilbage til top</a>
                 <h5>FN's 17 Verdensmål er opdelt i 169 delmål. Delmålene er mere konkrete mål for, hvordan Verdensmålene skal opfyldes. For at måle på hvert delmål har FN formuleret en række indikatorer for de enkelte delmål.</h5>
                 <p>Se eksempler på enkelte delmål her:</p>
             </div>
 
-            <div>
+            <div className="gallery">
             <img src={goalone} className="App-logo" alt="logo" />
             <img src={goaltwo} className="App-logo" alt="logo" />
             <img src={goalthree} className="App-logo" alt="logo" />
@@ -49,5 +50,6 @@ export const SectionTwo = () => {
             <img src={goal} className="App-logo" alt="logo" />
             </div>
         </section>
+        </main>
     )
 }

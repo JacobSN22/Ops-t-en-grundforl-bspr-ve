@@ -2,27 +2,28 @@ import './section-one.css';
 
 export const SectionOne = () => {
     return(
+        <main>
         <section>
             <div>
-                <h3>17 VERDENSMÅL</h3>
+                <h3>DE 17 VERDENSMÅL</h3>
                 <h5>På FN topmødet i New York i 2015 vedtog verdens stats- og regeringsledere en hidtil uset ambitiøs og samfundsforandrende udviklingsdagsorden, også kaldt 2030 dagsordenen. <br></br><br></br>
                 Frem til 2030 skal denne dagsorden sætte kurs mod en mere bæredygtig udvikling for både mennesker og planeten, vi bor på.</h5> 
             </div>         
         
-            <div>
+            <div className="content">
                 <div>
                     <h4>Verdensmålene forpligter.</h4>
-                    <p>Medlemslandende forpligter sig til helt at afskaffe fattigdom og sult i verden, sikre god uddannelse og sundhed til alle, reducere ulighed, fremme ligestilling, anstændige jobs, bæredygtig vækst og forbrug.
+                    <p>Medlemslandende forpligter sig til helt at afskaffe fattigdom og sult i verden, sikre god uddannelse og sundhed til alle, reducere ulighed, fremme ligestilling, anstændige jobs, bæredygtig vækst og forbrug.<br></br><br></br>
                         Den nye dagsorden anerkender således at social, økonomisk og miljømæssig udvikling, fred, sikkerhed og internationalt samarbejde er tæt forbundet, og at det kræver en integreret indsats at opnå holdbare udviklingsresultater.</p>
                 </div>
                 <div>
                     <h4>Verdensmålene gælder alle.</h4>
-                    <p>Målene gælder alle lande - både rige og fattige - dvs. de er universelle.
-                    Udfordringer som social, økonomisk  marginalisering, stigende ulighed, fødevareusikkerhed,  ulig adgang til grundlæggende naturressourcer,og har regionale og globale konsekvenser.
+                    <p>Målene gælder alle lande - både rige og fattige - dvs. de er universelle. <br></br><br></br>
+                    Udfordringer som social, økonomisk  marginalisering, stigende ulighed, fødevareusikkerhed,  ulig adgang til grundlæggende naturressourcer,og har regionale og globale konsekvenser.<br></br><br></br>
                     Det er derfor afgørende at alle lande leverer og løfter opgaven i fællesskab.</p>
                 </div>
             </div>
         </section>
-  
+        </main>
     );
 }
