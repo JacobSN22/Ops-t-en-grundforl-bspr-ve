@@ -36,6 +36,11 @@
     .gallery img {
         width: 100%;
         margin: 0;
+        filter: grayscale(100%);
+    }
+
+    .gallery img:hover {
+        filter: none;
     }
 }
 
@@ -80,6 +85,11 @@
     .gallery img {
         width: 100%;
         margin: 0;
+        filter: grayscale(100%);
+    }
+
+    .gallery img:hover {
+        filter: none;
     }
 }
 
@@ -124,5 +134,10 @@
     .gallery img {
         width: 100%;
         margin: 0;
+        filter: grayscale(100%);
+    }
+
+    .gallery img:hover {
+        filter: none;
     }
 }

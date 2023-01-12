@@ -1,5 +1,6 @@
 import logo from '../images/ColorWheel.png';
 import './header.css'
+import { NavLink } from 'react-router-dom';
 
 export const Header = () => {
     return(
@@ -11,10 +12,11 @@ export const Header = () => {
             </div>
             <nav>
                 <ul>
-                    <li><a href="">VERDENSMÅLENE</a></li>
-                    <li><a href="">DELMÅLENE</a></li>
-                    <li><a href="">UDFORDRINGER</a></li>
-                    <li><a href="">KONTAKT</a></li>
+                    <li><NavLink to="/"></NavLink></li>
+                    <li><NavLink to="/sectionone">VERDENSMÅLENE</NavLink></li>
+                    <li><NavLink to="/sectiontwo">DELMÅLENE</NavLink></li>
+                    <li><NavLink to="/sectionthree">UDFORDRINGER</NavLink></li>
+                    <li><NavLink to="/form">KONTAKT</NavLink></li>
                 </ul>
             </nav>
         </header>
